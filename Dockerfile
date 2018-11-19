@@ -1,4 +1,4 @@
-FROM ros:melodic
+FROM rezenders/beaglebone-black-ubuntu-openjdk-ros
 
 RUN apt-get update && apt-get install -y \
     ros-melodic-mavros \
